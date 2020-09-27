@@ -12,4 +12,4 @@ cd 'WhiteSur-icon-theme'
 ./install.sh
 bash <(wget -qO- "https://raw.githubusercontent.com/ful1e5/apple_cursor/master/scripts/install.sh")
 cd 
-rm -r temprorary
+sudo rm -r temprorary
