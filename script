@@ -1,7 +1,8 @@
 #!/bin/bash
 tar -xf apple-redifined.tar.xz 
 sudo mv apple-redifined /usr/share/plymouth/theme
-sudo plymouth-set-default-theme -R apple-redifinedcd 
+sudo plymouth-set-default-theme -R apple-redifined
+cd 
 mkdir temprorary
 cd temprorary 
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git 
