@@ -1,6 +1,6 @@
 #!/bin/bash
 tar -xf apple-redifined.tar.xz 
-sudo mv apple-redifined /usr/share/plymouth/theme
+sudo mv apple-redifined /usr/share/plymouth/themes
 sudo plymouth-set-default-theme -R apple-redifined
 cd 
 mkdir temprorary
