@@ -1,7 +1,6 @@
 #!/bin/bash
 tar -xf apple-redifined.tar.xz
 pacman -Syyu plymouth
-apt-get install plymouth
 sudo mv apple-redifined /usr/share/plymouth/themes
 sudo plymouth-set-default-theme -R apple-redifined
 cd 
