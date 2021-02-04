@@ -17,3 +17,4 @@ cd 'WhiteSur-icon-theme'
 bash <(wget -qO- "https://raw.githubusercontent.com/ful1e5/apple_cursor/master/scripts/install.sh")
 cd 
 sudo rm -r temprorary
+gnome-tweaks
